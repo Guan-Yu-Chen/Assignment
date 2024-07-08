@@ -17,3 +17,10 @@ int main()
         cout << "\n";
     }
 }
+
+// Please input the height of your pyramid:5
+// X
+// XX
+// XXX
+// XXXX
+// XXXXX
