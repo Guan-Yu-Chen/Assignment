@@ -1,32 +1,27 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>
-#include <chrono>
-#include <vector>
 using namespace std;
-using namespace std::chrono;
 
 int main()
 {
-   const int length = 10000;
-   const float times = 5000000;
-   int point_x;
-   int point_y;
-   float circle = 0;
+   const double times = 5000000;
+   double point_x;
+   double point_y;
+   int circle = 0;
    srand(time(0));
 
    for(int i = 0 ; i < times ; i++)
    {
-      point_x = rand()%length;
-      point_y = rand()%length;
+      point_x = double(rand())/RAND_MAX;
+      point_y = double(rand())/RAND_MAX;
 
-      if(point_x * point_x + point_y * point_y <= length * length)
+      if(point_x * point_x + point_y * point_y <= 1)
       {
          circle++;
       }
    }
-
-   cout << "The Pi is: " << fixed << setprecision(6) << circle/times*4;
+   cout << "Test point: " << times << endl;
+   cout << "The Pi is: " << fixed << setprecision(6) << double(circle)/times*4;
 
    return 0;
 }
