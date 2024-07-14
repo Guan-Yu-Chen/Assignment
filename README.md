@@ -32,3 +32,9 @@ Assignment1 主要目的是紀錄「計算機概論」這門課的每週作業�
 <img src="https://i.imgur.com/SxcANY0.png" width="60%">
 
 從模擬出來的數據可以看出，在機率是10%的情況下，只製作出不到20個道具的機率是千萬分之29，而像丁特一樣只製作出11個道具的機率甚至低於千萬分之一。基本上已經可以認定官方提供的10%機率是不合理的了。
+
+## See Also
+
+- [ArknightsRaffle](https://github.com/Guan-Yu-Chen/Practice?tab=readme-ov-file#%E8%92%99%E5%9C%B0%E5%8D%A1%E7%BE%85%E6%A8%A1%E6%93%AC)
+
+這是在了解完蒙地卡羅法後，自己寫的小程式，計算了手遊的抽卡期望值
